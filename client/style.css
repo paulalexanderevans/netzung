@@ -1,0 +1,290 @@
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: darkgrey;
+    background-color: darkgrey;
+}
+
+.hello {
+    color: hotpink;
+}
+
+.error {
+    color: hotpink;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+}
+
+.logoBig {
+    width: auto;
+    height: 50vh;
+    left: 25%;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+}
+.registrationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    align-items: center;
+    align-content: flex-start;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.uploader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(219, 219, 219);
+    height: auto;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.profileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: palegreen; */
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.bio {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.mainContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+    align-items: center;
+}
+
+.smallprofilePic {
+    width: auto;
+    height: 67px;
+}
+
+.chatProfilePic {
+    width: auto;
+    height: 20px;
+}
+
+.mediumprofilePic {
+    width: 100px;
+    height: auto;
+    padding-top: 5px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h4 {
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    color: hotpink;
+    align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+}
+
+.findPeopleLink:hover {
+    color: hotpink;
+    align-self: flex-start;
+    text-decoration: none;
+    font-weight: bold;
+}
+.findPeopleLink {
+    color: darkgrey;
+    align-self: flex-start;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title {
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.findPeople {
+    padding: 5px 5px 5px 0px;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    background-color: white;
+    /* height: auto;*/
+    align-items: center;
+}
+
+.friendRequestButton {
+    align-self: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    background-color: darkgray;
+    align-self: center;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+}
+.friendRequestButton:hover {
+    color: white;
+    background-color: hotpink;
+    align-self: center;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.chatPage {
+    overflow-y: scroll;
+    position: fixed;
+    top: 120px;
+    left: 25%;
+    width: 50%;
+    bottom: 20px;
+}
+
+.friendsPage {
+    overflow-y: scroll;
+    position: fixed;
+    top: 120px;
+    left: 25%;
+    width: 50%;
+    bottom: 20px;
+}
+.friendsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.friends {
+    width: 100px;
+    margin: 5px;
+}
+
+.chatInfo {
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    align-items: center;
+    font-size: 10px;
+}
+
+.name {
+    color: darkgray;
+    align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.name:hover {
+    color: hotpink;
+    /* align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px; */
+}
+
+.chatName {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: hotpink;
+    align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.chatInput {
+    width: 90%;
+}
+
+.messageContainer {
+    padding-bottom: 10px;
+}
+
+.message {
+    padding-left: 30px;
+
+    font-size: 12px;
+}
